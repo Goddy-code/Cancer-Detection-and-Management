@@ -90,6 +90,19 @@
             "meal_plan": "Focus on calcium-rich foods and vitamin D.",
             "drugs": ["Bisphosphonates", "Pain relief medication"],
             "advice": "Seek medical advice if bone pain persists for over a week."
+        },
+        "good or temporary changes in appetite": {
+            "type": "No Cancer",
+            "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
+
+        },
+        "low level fever with quick recovery": {
+            "type": "No Cancer",
+            "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
+        },
+        "acne or minor skin changes": {
+           "type": "No Cancer",
+            "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
         }
     },
     "specific_cancers": {
@@ -99,6 +112,7 @@
         "Colorectal Cancer": ["changes in bowel habits"],
         "Skin Cancer": ["skin changes"],
         "Lymphoma": ["night sweats", "swollen lymph nodes"],
-        "Bone Cancer": ["pain in bones"]
+        "Bone Cancer": ["pain in bones"],
+        "No Cancer" : ["good or temporary changes in appetite", "low level fever with quick recovery", "acne or minor skin changes" ]
     }
 }
