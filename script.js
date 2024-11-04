@@ -90,7 +90,7 @@ function displayResults(selectedSymptoms, cancerData) {
                     <h3>Type of Cancer: ${cancerType}</h3>
                     <p><strong>Prevention:</strong> ${cancerInfo.prevention}</p>
                     <p><strong>Meal Plan:</strong> ${cancerInfo.meal_plan}</p>
-                    <p><strong>Seek professional assistant to on the following recommended drugs before usage:</strong> ${cancerInfo.drugs.join(', ')}</p>
+                    <p><strong>Seek professional assistant to on the following recommended drugs,they may be of great help:</strong> ${cancerInfo.drugs.join(', ')}</p>
                     <p><strong>Advice:</strong> ${cancerInfo.advice}</p>
                 `;
                 resultsDiv.innerHTML += cancerDetails;

@@ -91,7 +91,7 @@
             "drugs": ["Bisphosphonates", "Pain relief medication"],
             "advice": "Seek medical advice if bone pain persists for over a week."
         },
-        "good or temporary changes in appetite": {
+        "temporary changes in appetite": {
             "type": "No Cancer",
             "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
 
@@ -100,7 +100,7 @@
             "type": "No Cancer",
             "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
         },
-        "acne or minor skin changes": {
+        "minor skin changes or acne": {
            "type": "No Cancer",
             "advice": "Engage in regular physical activity and continue daily routine to keep and maintain the cancer-free condition."
         }
