@@ -1,0 +1,104 @@
+{
+    "symptoms": {
+        "cough": {
+            "type": "Lung Cancer",
+            "prevention": "Avoid smoking, minimize exposure to secondhand smoke, and maintain a healthy lifestyle.",
+            "meal_plan": "Focus on fruits, vegetables, whole grains, and lean proteins. Limit red and processed meats.",
+            "drugs": ["Cisplatin", "Carboplatin", "Erlotinib"],
+            "advice": "Regular check-ups are crucial. Monitor any changes weekly."
+        },
+        "weight loss": {
+            "type": "Pancreatic Cancer",
+            "prevention": "Maintain a healthy weight through diet and exercise. Avoid tobacco.",
+            "meal_plan": "Incorporate more fruits, vegetables, and healthy fats like avocado and olive oil.",
+            "drugs": ["Gemcitabine", "Abraxane"],
+            "advice": "Consider dietary adjustments immediately. Track changes monthly."
+        },
+        "fatigue": {
+            "type": "Leukemia",
+            "prevention": "Limit exposure to radiation and chemicals. Eat a balanced diet.",
+            "meal_plan": "Emphasize foods rich in iron and vitamins, such as leafy greens and nuts.",
+            "drugs": ["Hydroxyurea", "Imatinib"],
+            "advice": "Rest is vital; monitor fatigue levels weekly."
+        },
+        "chest pain": {
+            "type": "Lung Cancer or Heart Disease",
+            "prevention": "Regular exercise, avoid smoking, and maintain a heart-healthy diet.",
+            "meal_plan": "Incorporate whole grains, lean proteins, and plenty of fruits and vegetables.",
+            "drugs": ["Aspirin", "Statins"],
+            "advice": "Consult a cardiologist if pain persists over a week."
+        },
+        "abdominal pain": {
+            "type": "Liver Cancer or Pancreatic Cancer",
+            "prevention": "Limit alcohol intake and maintain a healthy weight.",
+            "meal_plan": "Focus on fruits, vegetables, and lean proteins, while avoiding high-fat foods.",
+            "drugs": ["Sorafenib", "Lenvatinib"],
+            "advice": "Monitor symptoms bi-weekly. Adjust diet accordingly."
+        },
+        "changes in bowel habits": {
+            "type": "Colorectal Cancer",
+            "prevention": "Eat a high-fiber diet, exercise regularly, and limit red meat intake.",
+            "meal_plan": "Include whole grains, legumes, and plenty of vegetables in your diet.",
+            "drugs": ["Capecitabine", "Fluorouracil"],
+            "advice": "Monitor bowel habits weekly; consult a doctor for persistent changes."
+        },
+        "skin changes": {
+            "type": "Skin Cancer",
+            "prevention": "Use sunscreen, avoid tanning beds, and regularly check your skin for changes.",
+            "meal_plan": "Consume foods rich in antioxidants, like berries and leafy greens.",
+            "drugs": ["Imiquimod", "Cremes with 5-FU"],
+            "advice": "Check skin weekly for new changes."
+        },
+        "persistent cough": {
+            "type": "Lung Cancer",
+            "prevention": "Avoid irritants and maintain a healthy lifestyle.",
+            "meal_plan": "Focus on a balanced diet rich in vitamins and minerals.",
+            "drugs": ["Cough suppressants", "Bronchodilators"],
+            "advice": "Consult a doctor if cough persists for over a week."
+        },
+        "unexplained bruising": {
+            "type": "Leukemia",
+            "prevention": "Maintain a healthy lifestyle and avoid exposure to toxic substances.",
+            "meal_plan": "Eat foods rich in vitamin K and iron.",
+            "drugs": ["Platelet transfusion", "Chemotherapy agents"],
+            "advice": "Seek immediate medical attention for unexplained bruising."
+        },
+        "night sweats": {
+            "type": "Lymphoma",
+            "prevention": "Maintain a healthy weight and lifestyle.",
+            "meal_plan": "Include anti-inflammatory foods like turmeric and ginger.",
+            "drugs": ["Chemotherapy drugs", "Steroids"],
+            "advice": "Monitor for night sweats weekly."
+        },
+        "swollen lymph nodes": {
+            "type": "Lymphoma or Leukemia",
+            "prevention": "Stay active and maintain a healthy diet.",
+            "meal_plan": "Incorporate lean proteins, fruits, and vegetables.",
+            "drugs": ["Rituximab", "Chemotherapy drugs"],
+            "advice": "Check lymph nodes weekly for changes."
+        },
+        "changes in appetite": {
+            "type": "Various Cancers",
+            "prevention": "Monitor your health and consult with a healthcare professional.",
+            "meal_plan": "Maintain a balanced diet with a variety of nutrients.",
+            "drugs": ["Appetite stimulants", "Nutritional supplements"],
+            "advice": "Monitor appetite weekly; report significant changes."
+        },
+        "pain in bones": {
+            "type": "Bone Cancer",
+            "prevention": "Engage in regular physical activity and maintain a healthy weight.",
+            "meal_plan": "Focus on calcium-rich foods and vitamin D.",
+            "drugs": ["Bisphosphonates", "Pain relief medication"],
+            "advice": "Seek medical advice if bone pain persists for over a week."
+        }
+    },
+    "specific_cancers": {
+        "Lung Cancer": ["cough", "chest pain", "persistent cough"],
+        "Pancreatic Cancer": ["weight loss", "abdominal pain"],
+        "Leukemia": ["fatigue", "unexplained bruising"],
+        "Colorectal Cancer": ["changes in bowel habits"],
+        "Skin Cancer": ["skin changes"],
+        "Lymphoma": ["night sweats", "swollen lymph nodes"],
+        "Bone Cancer": ["pain in bones"]
+    }
+}
